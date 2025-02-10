@@ -1,0 +1,49 @@
+
+.Pagina-login{
+
+   width: 100vw;
+   height: 100vh;
+   
+   background: rgb(133,78,26);
+background: linear-gradient(322deg, rgba(133,78,26,1) 0%, rgba(223,186,140,1) 36%, rgba(133,78,26,1) 100%);
+
+    
+   header{
+      text-align: center;
+      margin-top: 150px;
+   }
+
+   
+    
+   main{
+      font-weight: 700; 
+      font-size: larger;
+      font-family:'Times New Roman', Times, serif;
+      text-align: center;
+      
+       }
+
+       
+   button{
+      margin-left: 30px;
+      font-size:medium;
+   }
+   
+   button:hover{
+      background-color: #e3e5d7;
+   }
+   
+   p{
+      
+      width: 40px;
+      height: 15px;
+      
+   }
+}
+
+.Pagina-usuario {
+   width: 100vw;
+   height: 100vh;
+   
+}
+
