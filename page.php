@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete'])) {
     
     <h2>Usuários</h2>
     <main>
-    <table border="1">
+    <table  border="1">
         <tr>
             <th>ID</th>
             <th>Nome</th>
@@ -63,22 +63,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete'])) {
             <td>
                 <form method="POST" style="display:inline;">
                     <input type="hidden" name="id" value="<?= $row["id"] ?>">
-                    <input type="text" name="nome" value="<?= $row["nome"] ?>" required>
-                    <input type="email" name="email" value="<?= $row["email"] ?>" required>
-                    <button type="submit" name="update">Atualizar</button>
+                    <input class="idt" type="text" name="nome" value="<?= $row["nome"] ?>" required>
+                    <input class="idt" type="email" name="email" value="<?= $row["email"] ?>" required>
+                    <button class="bot" type="submit" name="update">Atualizar</button>
                 </form>
                 <form method="POST" style="display:inline;">
                     <input type="hidden" name="id" value="<?= $row["id"] ?>">
-                    <button type="submit" name="delete">Deletar</button>
+                    <button class="bot" type="submit" name="delete">Deletar</button>
                 </form>
             </td>
         </tr>
         <?php } ?>
     </table>
     <br>
-    <a href="index.php">Voltar</a>
-    </main>
     
+    </main>
+    <a href="index.php">Voltar</a>
 </body>
 </html>
 

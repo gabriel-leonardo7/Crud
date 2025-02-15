@@ -32,16 +32,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['create'])) {
 </head>
 <body class="Pagina-login">
     <header>
-        <h2>Bem vindo!</h2>
+        <h1>Bem vindo!</h1>
     </header>
 
-    <main>
+    <main  class="login">
     <h1>Adicionar Usuário</h1>
+
     
     <form method="POST">
-        Nome: <input type="text" name="nome" required> <br> <br>
-        Email: <input type="email" name="email" required> <br><br>
-        <button type="submit" name="create"><p>Criar</p></button>
+        Nome: <input class="id" type="text" name="nome" required> <br> <br>
+        Email: <input class="id" type="email" name="email" required> <br><br>
+        <button class="butao" type="submit" name="create">Criar</button>
     </form>
     
 </main>

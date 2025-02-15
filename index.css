@@ -1,36 +1,31 @@
 
 .Pagina-login{
-
-   width: 100vw;
-   height: 100vh;
-   
-   background: rgb(133,78,26);
-background: linear-gradient(322deg, rgba(133,78,26,1) 0%, rgba(223,186,140,1) 36%, rgba(133,78,26,1) 100%);
-
+ height:82.5vh;
+ background: rgb(0,39,45);
+ background: linear-gradient(164deg, rgba(0,39,45,1) 0%, rgba(19,70,71,1) 36%);;
+ color: #f4f4f4;
     
    header{
       text-align: center;
-      margin-top: 150px;
+      margin-top: 120px;
+      font-size: 23px;
    }
 
-   
+
     
    main{
       font-weight: 700; 
       font-size: larger;
-      font-family:'Times New Roman', Times, serif;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       text-align: center;
       
        }
 
        
-   button{
-      margin-left: 30px;
-      font-size:medium;
-   }
+  
    
    button:hover{
-      background-color: #e3e5d7;
+      background-color: #0c7e7e;
    }
    
    p{
@@ -41,9 +36,109 @@ background: linear-gradient(322deg, rgba(133,78,26,1) 0%, rgba(223,186,140,1) 36
    }
 }
 
-.Pagina-usuario {
-   width: 100vw;
-   height: 100vh;
+.login{
+   width: 40vw;
+   height: 350px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 29vw;
+   background-color:#253342;
+   border-radius: 10px;
+   box-shadow:0px 0px 50px #353432;
+
+}
+
+.id{
+   width: 200px;
+   height: 30px;
+   background-color: #f9f9f1;
+   border-radius: 15px;
+   margin-right: 3px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.butao{
+   width: 200px;
+   height: 35px;
+   background-color: #345245;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 65px;
+
+   font-size: 18px;
+   color: #f9f9f1;
+   
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
    
 }
+
+.Pagina-usuario{
+   height:96vh;
+   background: rgb(24,23,64);
+   background: linear-gradient(164deg, rgba(24,23,64,1) 0%, rgba(55,53,96,1) 36%);
+   
+}
+   
+      .Pagina-usuario h2{
+         color:#f4f4f4;
+         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         margin-left: 10px;
+      }
+
+      .Pagina-usuario a{
+         display: flex;
+         margin-top: 10px;
+         width: 50px;
+         height: 30px;
+         color:#f4f4f4 ;
+         margin-left: 10px;
+         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   border-radius: 10px;
+   padding: 10px;
+
+   background-color: #181740;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: #f4f4f4;
+   box-shadow:0px 0px 50px #272650;
+   
+   }
+
+   .idt{
+      background-color: #353432;
+      color: #f4f4f4;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      width:300px ;
+      height: 25px;
+      border-radius: 5px;
+   }
+
+   .idt:hover{
+      background-color: #598573e2;
+   }  
+
+   .bot{
+      background-color: #353432;
+      color: #f4f4f4;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      border-radius: 5px;
+      height: 25px;
+      width: 110px;
+      margin-left: 40px;
+   }
+
+   .bot:hover{
+      background-color: #345245;
+   }
+  
 
